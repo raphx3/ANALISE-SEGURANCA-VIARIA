@@ -1,7 +1,7 @@
-Dashboard de Segurança Viária - Visão Zero Vitória
+# Dashboard de Segurança Viária - Visão Zero Vitória
 Este projeto é um painel de controle interativo (dashboard) construído com Streamlit para monitoramento e análise de segurança viária. O relatório simula a análise de sinistros de trânsito na Ilha de Vitória, Espírito Santo, focando na proteção de parceiros entregadores.
 
-O objetivo deste projeto é demonstrar proficiência em:
+# O objetivo deste projeto é demonstrar proficiência em:
 
 Geoprocessamento e Inteligência Espacial: Identificação de hotspots de acidentes e classificação de risco por eixos viários reais.
 
@@ -11,7 +11,7 @@ Visualização de Dados Dinâmica: Uso de Folium e MarkerCluster para criar mapa
 
 Desenvolvimento de Dashboards Logísticos: Criação de uma ferramenta funcional para tomada de decisão baseada em dados viários.
 
-Funcionalidades do Dashboard
+# Funcionalidades do Dashboard
 O painel apresenta uma análise integrada da malha viária urbana:
 
 Métricas de Segurança (KPIs): Painel lateral com contagem em tempo real de acidentes Leves, Graves e Fatais.
@@ -24,7 +24,7 @@ Mapa de Calor e Clusters: Camadas alternáveis que mostram a densidade de ocorr�
 
 Tabela de Dados Inteligente: Listagem completa de sinistros com destaque visual (Style Map) em ocorrências graves para triagem operacional rápida.
 
-Como Executar o Projeto
+# Como Executar o Projeto
 Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Pré-requisitos
