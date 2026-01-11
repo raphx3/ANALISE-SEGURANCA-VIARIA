@@ -33,7 +33,7 @@ Certifique-se de ter o Python instalado (versão 3.9+ recomendada).
 **2. Instalação das Dependências**
 Crie o ambiente virtual:
 
-Bash
+
 
     python -m venv .venv
 Ative o ambiente virtual:
@@ -44,12 +44,12 @@ Ative o ambiente virtual:
 
 Instale as dependências:
 
-Bash
+
 
     pip install streamlit pandas folium streamlit-folium scikit-learn
 **3. Execução do Aplicativo**
 Execute o aplicativo com o comando do Streamlit:
 
-Bash
+
 
     streamlit run main.py
