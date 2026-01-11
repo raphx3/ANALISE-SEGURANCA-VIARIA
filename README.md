@@ -1,5 +1,5 @@
-# Dashboard de Segurança Viária - Visão Zero Vitória
-Este projeto é um painel de controle interativo (dashboard) construído com Streamlit para monitoramento e análise de segurança viária. O relatório simula a análise de sinistros de trânsito na Ilha de Vitória, Espírito Santo, focando na proteção de parceiros entregadores.
+# Dashboard de Segurança Viária - Vitória
+Este projeto é um painel de controle interativo (dashboard) construído com Streamlit para monitoramento e análise de segurança viária. O relatório simula a análise de sinistros de trânsito na Ilha de Vitória, Espírito Santo, focando na proteção de parceiros.
 
 # O objetivo deste projeto é demonstrar proficiência em:
 
