@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 # 1. Configurações Iniciais
 st.set_page_config(page_title="Dashboard Segurança Viária", layout="wide")
 
-# Estilização para a tabela - CORRIGIDO: Use Styler.map em versões novas
+# Estilização para a tabela
 def highlight_graves(val):
     color = 'orange' if val == 'Grave' else ''
     return f'background-color: {color}'
@@ -108,15 +108,17 @@ folium.LayerControl(collapsed=False).add_to(m)
 
 st_folium(m, width=1400, height=600)
 
-# 5. Tabela de Dados - CORRIGIDO: width='stretch' e Styler.map
+# 5. Tabela de Dados
 st.divider()
 st.subheader("Base de Dados de Sinistros")
 st.write("Abaixo, a tabela destaca automaticamente os acidentes **Graves** para facilitar a triagem operacional.")
 
-# Aplicando as correções de 2026
+# Aplicando destaques
 st.dataframe(df.style.map(highlight_graves, subset=['gravidade']), width='stretch')
 
+# Rodapé
 st.markdown("---")
 st.caption("Dashboard desenvolvido para fins de demonstração técnica de análise de dados.")
 st.caption("LinkedIn: https://www.linkedin.com/in/raphaelalvarengadasilva/")
+
 
