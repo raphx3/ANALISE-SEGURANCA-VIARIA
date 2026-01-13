@@ -46,7 +46,7 @@ Instale as dependências:
 
 
 
-    pip install streamlit pandas folium streamlit-folium scikit-learn
+    pip install -r requirements.txt
 **3. Execução do Aplicativo**
 Execute o aplicativo com o comando do Streamlit:
 
